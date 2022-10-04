@@ -9,4 +9,6 @@ This Project use Api to trace the  the Weather information of any location and t
 #### After Search
 ![image](https://user-images.githubusercontent.com/92168231/193864235-8a57c3fe-910f-4952-ae28-e67e220e082a.png)
 
+#### When result not found
+![image](https://user-images.githubusercontent.com/92168231/193864461-ec8748f9-83c7-4080-a271-8ee833620569.png)
 
