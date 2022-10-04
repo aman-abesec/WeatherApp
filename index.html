@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Weather Report</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="">
+        <input type="text" id="searchbox" placeholder="Enter Location">
+        <button onclick="fun()">Search</button>
+      </div>
+      <div class="child">
+        <div class="logo">
+          <img src="logo.png" alt="IMG" id="imglogo">
+        </div>
+        <div id="error">
+          <h2>Sorry !!</h2>
+        </div>
+        <div class="subchild1">
+          <h3 id="lname">Location Name</h3>
+          <ul>
+            <li id="cname"> <b>Country Name :</b> </li>
+            <li id="rname"> <b>Region :</b> </li>
+          </ul>
+        </div>
+        <div class="subchild2">
+          <h3 id="temperature">Temperature</h3>
+          <ul>
+            <li id="wspeed"> <b>Wind Speed :</b> </li>
+            <li id="humidity"> <b>Humidity :</b> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+
+</html>
+<!-- b82b24caf5124a4ba38130815222005 -->
+<!-- https://api.weatherapi.com/v1/current.json?key=b82b24caf5124a4ba38130815222005&q=Ghaziabad&aqi=no -->
