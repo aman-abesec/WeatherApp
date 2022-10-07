@@ -7,34 +7,39 @@
     <title>Weather Report</title>
   </head>
   <body>
-    <div class="container">
-      <div class="">
-        <input type="text" id="searchbox" placeholder="Enter Location">
-        <button onclick="fun()">Search</button>
+    <main>
+      <div class="container">
+        <div class="">
+          <input type="text" id="searchbox" placeholder="Enter Location">
+          <button onclick="fun()">Search</button>
+        </div>
+        <div class="child">
+          <div class="logo">
+            <img src="logo.png" alt="IMG" id="imglogo">
+          </div>
+          <div id="error">
+            <h2>Sorry !!</h2>
+          </div>
+          <div class="subchild1">
+            <h3 id="lname">Location Name</h3>
+            <ul>
+              <li id="cname"> <b>Country Name :</b> </li>
+              <li id="rname"> <b>Region :</b> </li>
+            </ul>
+          </div>
+          <div class="subchild2">
+            <h3 id="temperature">Temperature</h3>
+            <ul>
+              <li id="wspeed"> <b>Wind Speed :</b> </li>
+              <li id="humidity"> <b>Humidity :</b> </li>
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="child">
-        <div class="logo">
-          <img src="logo.png" alt="IMG" id="imglogo">
-        </div>
-        <div id="error">
-          <h2>Sorry !!</h2>
-        </div>
-        <div class="subchild1">
-          <h3 id="lname">Location Name</h3>
-          <ul>
-            <li id="cname"> <b>Country Name :</b> </li>
-            <li id="rname"> <b>Region :</b> </li>
-          </ul>
-        </div>
-        <div class="subchild2">
-          <h3 id="temperature">Temperature</h3>
-          <ul>
-            <li id="wspeed"> <b>Wind Speed :</b> </li>
-            <li id="humidity"> <b>Humidity :</b> </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    </main>
+    <footer>
+      <p>&copy;2022 Weather Report. All rights reserved</p>
+    </footer>
     <script src="main.js"></script>
   </body>
 
